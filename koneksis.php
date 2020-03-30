@@ -1,5 +1,5 @@
 <?php 
-$koneksi = mysqli_connect("localhost","root","","latihanphp");
+$koneksi = mysqli_connect("localhost","root","","tubesdpplnew");
  
 // Check connection
 if (mysqli_connect_errno()){

@@ -9,13 +9,22 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Kitahu Komputer</title>
+        <title>HiHealth</title>
     </head>
     <body>
-	    <h2>Halaman Admin</h2>
-	    <h4>Selamat datang, <?php echo $_SESSION['username']; ?>! anda telah login.</h4>
+	    <h2>Welcome</h2>
+	    <h4>Welcome, <?php echo $_SESSION['username']; ?>! You're successfull to login !</h4>
 	    <br/>
 	    <br/>
-	    <a href="logout.php">LOGOUT</a>
+	    <table>
+			<td><a href="logout.php">LOGOUT</a></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><a href="menu_perhitungan.php">MENU PERHITUNGAN BMI</a></td>
+		</table>
     </body>
 </html>
